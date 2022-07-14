@@ -3,7 +3,7 @@ import {Button, Col, Row} from "react-bootstrap";
 import {LinkContainer} from "react-router-bootstrap";
 import "./Home.css";
 
-const Home = () => (
+export const Home = () => (
     <Row>
         <Col md={6} className="d-flex flex-direction-column align-items-center justify-content-center">
             <div>
@@ -21,4 +21,3 @@ const Home = () => (
     </Row>
 );
 
-export default Home;

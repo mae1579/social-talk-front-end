@@ -5,7 +5,7 @@ import {Link, useNavigate} from "react-router-dom";
 import "./Login.css";
 import {AppContext} from "../context/appContext";
 
-const Login = () => {
+export const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const navigate = useNavigate();
@@ -62,4 +62,3 @@ const Login = () => {
     );
 };
 
-export default Login;

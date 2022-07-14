@@ -6,7 +6,7 @@ import "./Signup.css";
 import botImg from "../assets/bot.jpg";
 
 // state  dane nowego uzytkownika:
-const Signup = () => {
+export const Signup = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [name, setName] = useState("");
@@ -111,4 +111,4 @@ const Signup = () => {
     );
 };
 
-export default Signup;
+

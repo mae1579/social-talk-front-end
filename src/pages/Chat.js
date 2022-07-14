@@ -3,7 +3,7 @@ import {Col, Container, Row} from "react-bootstrap";
 import Sidebar from "../components/Sidebar";
 import MessageForm from "../components/MessageForm";
 
-const Chat = () => (
+export const Chat = () => (
     <Container style={{backgroundColor: "#FFC600"}}>
         <Row>
             <Col md={4}>
@@ -16,5 +16,5 @@ const Chat = () => (
     </Container>
 );
 
-export default Chat;
+
 
