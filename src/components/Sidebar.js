@@ -5,7 +5,7 @@ import {AppContext} from "../context/appContext";
 import {addNotifications, resetNotifications} from "../features/userSlice";
 import "./Sidebar.css";
 
-function Sidebar() {
+export function Sidebar() {
     const user = useSelector((state) => state.user);
     const dispatch = useDispatch();
     const {
@@ -112,4 +112,4 @@ function Sidebar() {
     );
 }
 
-export default Sidebar;
+

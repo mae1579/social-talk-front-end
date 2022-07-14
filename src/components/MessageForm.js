@@ -4,7 +4,7 @@ import {useSelector} from "react-redux";
 import {AppContext} from "../context/appContext";
 import "./MessageForm.css";
 
-function MessageForm() {
+export function MessageForm() {
     const [message, setMessage] = useState("");
     const user = useSelector((state) => state.user);
     const {socket, currentRoom, setMessages, messages, privateMemberMsg} = useContext(AppContext);
@@ -115,4 +115,4 @@ function MessageForm() {
     );
 }
 
-export default MessageForm;
+

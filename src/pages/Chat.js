@@ -1,7 +1,7 @@
 import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
-import Sidebar from "../components/Sidebar";
-import MessageForm from "../components/MessageForm";
+import {Sidebar} from "../components/Sidebar";
+import {MessageForm} from "../components/MessageForm";
 
 export const Chat = () => (
     <Container style={{backgroundColor: "#FFC600"}}>
