@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+<a href="https://files.fm/f/xxn4n3gfp"><img src="https://files.fm/thumb_show.php?i=xxn4n3gfp"></a>
+## Social-talk
+The application was created as part of completing the programming course: MegaK (https://www.megak.pl/).
+The basic functionality of the application is a chat that allows you to chat with other registered users.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The application consists of two repositories:
+<ul>
+  <li>Back-end:https://github.com/mae1579/social-talk-back-end </li>
+  <li>Front-end:https://github.com/mae1579/social-talk-front-end </li>
+</ul>
 
-## Available Scripts
+## Tech Stack 🛠️ 
+<p align="left"><a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>&nbsp; &nbsp;&nbsp;&nbsp; <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>&nbsp; &nbsp;&nbsp;&nbsp;<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp; <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>&nbsp; &nbsp;&nbsp;&nbsp;<img height="40" width="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" alt="mongodb" width="40" height="40"/> </a>&nbsp; &nbsp;&nbsp;&nbsp; 
+<a href="https://socket.io/" rel="noreferrer"> <img src="https://socket.io/images/logo.svg" alt="socket-io" width="40" height="40"/> </a>&nbsp; &nbsp;&nbsp;&nbsp; 
+ <a href="https://redux.js.org/" rel="noreferrer"> <img src="https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg" alt="redux" width="40" height="40"/> </a>&nbsp; &nbsp;&nbsp;&nbsp; 
+</p>
 
-In the project directory, you can run:
 
-### `npm start`
+## Lessons Learned 📝
+<p>I have completed my knowledge acquired during the course and used it during the project.
+Additionally, I learned to use socket.io and learned redux</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup ⚙️
+<p>extract the back-end and front-end to the same forder</p>
+## BACKEND
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone the project
 
-### `npm test`
+```bash
+  git clone https://github.com/mae1579/social-talk-back-end.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Go to the project directory
 
-### `npm run build`
+```bash
+  cd social-talk-back-end
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Start the server
 
-### `npm run eject`
+```bash
+  npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## FRONTEND
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Clone the project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  git clone https://github.com/mae1579/social-talk-front-end.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Go to the project directory
 
-## Learn More
+```bash
+  cd social-talk-front-end
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  npm install
+```
 
-### Code Splitting
+Start the server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  npm start
+```
+## DATABSE
+<p>The application uses Mongodb Atlas so you automatically have a database connection when using the application.</p>
 
-### Analyzing the Bundle Size
+##Screenshots 📷
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<h4>Logowanie/Login</h4>
+<a href="https://files.fm/u/p79bkh395#/view/Logowanie.PNG"><img src="https://files.fm/thumb_show.php?i=f8jga8z7f"></a>
 
-### Making a Progressive Web App
+<h4>Rejestracja/Register</h4>
+<a href="https://files.fm/u/p79bkh395#/view/Zak%C5%82adanie%20konta.PNG"><img src="https://files.fm/thumb_show.php?i=6pkvx7xet"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<h4>Chat</h4>
 
-### Advanced Configuration
+<a href="https://files.fm/u/p79bkh395#/view/Rozmowa1.PNG"><img src="https://files.fm/thumb_show.php?i=mff3bxbhf"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h4>Wylogowanie/Logout</h4>
+<a href="https://files.fm/u/p79bkh395#/view/wylogowywwanie.PNG"><img src="https://files.fm/thumb_show.php?i=wwkasmuer"></a>
